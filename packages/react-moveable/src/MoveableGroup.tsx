@@ -339,7 +339,7 @@ class MoveableGroup extends MoveableManager<GroupableProps> {
         const transform = `translate(${-deltaX}px, ${-deltaY}px)${rotateScale}`;
 
         this.controlBox.style.transform
-            = `translate3d(${minX}px, ${minY}px, ${this.props.translateZ || 0})`;
+            = `translate(${minX}px, ${minY}px)`;
 
         target.style.cssText += `left:0px;top:0px;`
             + `transform-origin:${transformOrigin};`
