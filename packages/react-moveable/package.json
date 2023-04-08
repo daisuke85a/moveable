@@ -1,5 +1,5 @@
 {
-    "name": "react-moveable",
+    "name": "react-moveable-daisuke",
     "version": "0.48.0",
     "description": "A React Component that create Moveable, Draggable, Resizable, Scalable, Rotatable, Warpable, Pinchable, Groupable.",
     "main": "./dist/moveable.cjs.js",
@@ -53,14 +53,14 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/daybrush/moveable/blob/master/packages/react-moveable"
+        "url": "https://github.com/daisuke85a/moveable/blob/master/packages/react-moveable"
     },
-    "author": "Daybrush",
+    "author": "Daisuke",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/daybrush/moveable/issues"
+        "url": "https://github.com/daisuke85a/moveable/issues"
     },
-    "homepage": "https://daybrush.com/moveable",
+    "homepage": "https://daisuke85a.com/moveable",
     "devDependencies": {
         "@babel/core": "^7.7.2",
         "@croffle/bakery": "^0.0.21",
