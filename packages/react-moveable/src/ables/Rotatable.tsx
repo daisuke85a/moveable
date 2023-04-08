@@ -239,7 +239,6 @@ height: calc(40px * var(--zoom));
 top: auto;
 left: 0;
 bottom: 100%;
-will-change: transform;
 }
 .rotation .rotation-line {
 display: block;

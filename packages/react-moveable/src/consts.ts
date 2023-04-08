@@ -92,7 +92,6 @@ z-index: 3000;
 --moveable-color: #4af;
 --zoom: 1;
 --zoompx: 1px;
-will-change: transform;
 outline: 1px solid transparent;
 }
 .control-box {
@@ -102,7 +101,6 @@ z-index: 0;
 position: absolute;
 left: 0;
 top: 0;
-will-change: transform;
 }
 .control {
 width: 14px;
@@ -119,7 +117,6 @@ z-index: 10;
 }
 .around-control {
 position: absolute;
-will-change: transform;
 width: calc(var(--moveable-control-padding, 20) * 1px);
 height: calc(var(--moveable-control-padding, 20) * 1px);
 left: -10px;

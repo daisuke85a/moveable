@@ -612,7 +612,7 @@ export function getControlTransform(rotation: number, zoom: number, ...poses: nu
     const x = poses.reduce((prev, pos) => prev + pos[0], 0) / length;
     const y = poses.reduce((prev, pos) => prev + pos[1], 0) / length;
     return {
-        transform: `translateZ(0px) translate(${x}px, ${y}px) rotate(${rotation}rad) scale(${zoom})`,
+        transform: `translate(${x}px, ${y}px) rotate(${rotation}rad) scale(${zoom})`,
     };
 }
 

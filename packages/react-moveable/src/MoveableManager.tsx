@@ -136,7 +136,7 @@ export default class MoveableManager<T = {}>
             className,
             target: propsTarget,
             zoom, cspNonce,
-            translateZ,
+            // translateZ,
             cssStyled: ControlBoxElement,
             groupable,
             linePadding,
@@ -178,7 +178,7 @@ export default class MoveableManager<T = {}>
             "position": hasFixed ? "fixed" : "absolute",
             "display": isDisplay ? "block" : "none",
             "visibility": isVisible ? "visible" : "hidden",
-            "transform": `translate3d(${translate[0]}px, ${translate[1]}px, ${translateZ})`,
+            "transform": `translate(${translate[0]}px, ${translate[1]}px)`,
             "--zoom": zoom,
             "--zoompx": `${zoom}px`,
         };
